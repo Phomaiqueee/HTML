@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+  </head>
+
+  <body>
+    
+    <div id="card">
+        <img class="card__img" src="https://th.bing.com/th/id/OIP.1I1gtkjFR_RgPq_tsnPi1gHaHa?pid=ImgDet&rs=1" alt="">
+        <h1 class="card__title">Title</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, harum. Numquam animi reiciendis sit sint recusandae repellat pariatur corporis quod vel aliquid quae, ipsam ratione tenetur cupiditate eaque officia hic?</p>
+        <button class="card__btn_add">Add</button>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script>
+        const btn = document.querySelector('.card__btn_add')
+        btn.addEventListener('click', function() {
+            alert('asdd')
+        })
+    </script>
+  </body>
+</html>
